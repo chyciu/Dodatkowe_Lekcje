@@ -1,37 +1,74 @@
 package wesele;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MainWesele {
 
     public static void main(String[] args) {
 
-        Zaproszenie zaproszenie1 = new Zaproszenie("Marian", "Kowalski", TypZaproszenia.POJEDYNCZE);
-        Zaproszenie zaproszenie2 = new Zaproszenie("Jola", "Nowak", TypZaproszenia.Z_OS_TOWARZYSZACA);
+        Scanner scanner = new Scanner(System.in);
 
-        List<TypZaproszenia> typZaproszeniaList = new ArrayList<>();
-        typZaproszeniaList.add(zaproszenie1.getTypZaproszenia());
-        typZaproszeniaList.add(zaproszenie2.getTypZaproszenia());
-        System.out.println(typZaproszeniaList.toString());
+        System.out.println("Ilość zaproszonych gości: " + policzGosci(poberzInfoOGosciach()));
+    }
 
-        System.out.println(zaproszenie1);
-        System.out.println(zaproszenie2);
+    public static int iloscZaproszen() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj ilość zaproszeń");
+        try {
+            return scanner.nextInt();
+        } catch (Exception e) {
+            System.out.println("Podałeś nieprawidłową liczbę, musi być większa od zera");
+        }
+        return iloscZaproszen();
+    }
 
-        ZaproszenieBuilder zaproszenie3 = ZaproszenieBuilder.builder()
-                .imię("Jan")
-                .nazwisko("Kowal")
-                .typZaproszenia(TypZaproszenia.POJEDYNCZE).build();
+    public static Zaproszenie[] poberzInfoOGosciach() {
+        Scanner scanner = new Scanner(System.in);
+        int ileZaproszen = iloscZaproszen();
 
-        ZaproszenieBuilder zaproszenie4 = ZaproszenieBuilder.builder()
-                .imię("Anna")
-                .nazwisko("Kozak")
-                .typZaproszenia(TypZaproszenia.Z_OS_TOWARZYSZACA)
-                .build();
+        String imie;
+        String nazwisko;
+        TypZaproszenia typZaproszenia = null;
+        String zaproszenie;
 
-        System.out.println(zaproszenie3);
-        System.out.println(zaproszenie4);
+        Zaproszenie[] zaproszenia = new Zaproszenie[ileZaproszen];
+        for (int i = 0; i < ileZaproszen; i++) {
+            System.out.println("Podaj imię.");
+            imie = scanner.nextLine();
+
+            System.out.println("Podaj nazwisko");
+            nazwisko = scanner.nextLine();
+
+            System.out.println("Czy zaproszenie jest z osobą towarzyszącą?");
+            zaproszenie = scanner.next();
+            while (!zaproszenie.equalsIgnoreCase("tak") && !zaproszenie.equalsIgnoreCase("nie")) {
+                System.out.println("Podałeś nieprawidłową odpowiedź. Proszę odpowiedzieć TAK lub NIE");
+                zaproszenie = scanner.next();
+            }
+            if (zaproszenie.equalsIgnoreCase("nie")) {
+                typZaproszenia = TypZaproszenia.POJEDYNCZE;
+            } else if (zaproszenie.equalsIgnoreCase("tak")) {
+                typZaproszenia = TypZaproszenia.Z_OS_TOWARZYSZACA;
+            }
+
+            zaproszenia[i] = new Zaproszenie(imie, nazwisko, typZaproszenia);
+            System.out.println("Pomyślnie dodano zaproszenie");
+        }
+        System.out.println(Arrays.toString(zaproszenia));
+        return zaproszenia;
+    }
+
+
+    public static int policzGosci(Zaproszenie[] listaGosci) {
+        int liczbaGosci = 0;
+        for (Zaproszenie zaproszenie : listaGosci) {
+            if (zaproszenie.typZaproszenia == TypZaproszenia.Z_OS_TOWARZYSZACA) {
+                liczbaGosci += 2;
+            } else if (zaproszenie.typZaproszenia == TypZaproszenia.POJEDYNCZE) {
+                liczbaGosci++;
+            }
+        } return liczbaGosci;
     }
 
 }

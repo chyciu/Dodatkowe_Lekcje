@@ -21,5 +21,13 @@ public class Laptop extends Komputer {
                 ", czyPosiadaRetine=" + czyPosiadaRetine +
                 '}';
     }
+
+    public double getWielkoscMatrycy() {
+        return wielkoscMatrycy;
+    }
+
+    public boolean isCzyPosiadaRetine() {
+        return czyPosiadaRetine;
+    }
 }
 

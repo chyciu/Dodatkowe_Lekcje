@@ -10,11 +10,13 @@ public class Zaproszenie {
 
     @Override
     public String toString() {
-        return "Zaproszenie{" +
-                "imię='" + imię + '\'' +
-                ", nazwisko='" + nazwisko + '\'' +
-                ", typZaproszenia=" + typZaproszenia +
-                '}';
+        if (typZaproszenia == TypZaproszenia.POJEDYNCZE) {
+            return "\n" + "Gość" + imię + " "  + nazwisko +
+                   "\n" + "Zaproszenie pojedyncze";
+         } else {
+             return "\n" + "Gość" + imię + " " + nazwisko + "\n" +
+                     "Zaproszenie z osobą towarzyszącą";
+        }
     }
 
     public Zaproszenie(final String imię, final String nazwisko, final TypZaproszenia typZaproszenia) {
@@ -22,21 +24,4 @@ public class Zaproszenie {
         this.nazwisko = nazwisko;
         this.typZaproszenia = typZaproszenia;
     }
-
-    public String getImię() {
-
-        return imię;
-    }
-
-    public String getNazwisko() {
-
-        return nazwisko;
-    }
-
-    public TypZaproszenia getTypZaproszenia() {
-
-        return typZaproszenia;
-    }
-
-
 }

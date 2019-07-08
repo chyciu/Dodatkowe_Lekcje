@@ -2,9 +2,9 @@ package komputer;
 
 public class Komputer {
 
-    public int potrzebnaMoc;
-    public String producent;
-    public TypProcesora typProcesora;
+    private int potrzebnaMoc;
+    private String producent;
+    private TypProcesora typProcesora;
 
     public Komputer(int potrzebnaMoc, String producent, TypProcesora typProcesora) {
         this.potrzebnaMoc = potrzebnaMoc;
@@ -19,5 +19,17 @@ public class Komputer {
                 ", producent='" + producent + '\'' +
                 ", typProcesora=" + typProcesora +
                 '}';
+    }
+
+    public int getPotrzebnaMoc() {
+        return potrzebnaMoc;
+    }
+
+    public String getProducent() {
+        return producent;
+    }
+
+    public TypProcesora getTypProcesora() {
+        return typProcesora;
     }
 }
