@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7430ce9e-b1ec-4527-a589-771a052df4ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/społeczenstwo/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/społeczenstwo/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/społeczenstwo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/społeczenstwo/Peasant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/społeczenstwo/Soldier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/społeczenstwo/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/społeczenstwo/Townsman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zamowienie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zamowienie/Pozycja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zamowienie/Zamowienie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/komputer/Komputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/komputer/Komputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/komputer/KomputerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/komputer/KomputerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/komputer/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/komputer/Laptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wesele/MainWesele.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wesele/MainWesele.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wesele/TypZaproszenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wesele/TypZaproszenia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wesele/Zaproszenie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wesele/Zaproszenie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,54 +37,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zamowienie/Zamowienie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zamowienie/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/komputer/KomputerDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zamowienie/Pozycja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="37" column="108" selection-start-line="37" selection-start-column="108" selection-end-line="37" selection-end-column="108" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/komputer/Komputer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding>
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/komputer/TypProcesora.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/komputer/Laptop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-              <folding>
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="50">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -126,13 +106,24 @@
         <option value="$PROJECT_DIR$/src/main/java/wesele/Zaproszenie.java" />
         <option value="$PROJECT_DIR$/src/main/java/wesele/MainWesele.java" />
         <option value="$PROJECT_DIR$/src/main/java/komputer/Laptop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/komputer/Komputer.java" />
         <option value="$PROJECT_DIR$/src/main/java/komputer/KomputerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/społeczenstwo/Citizen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/społeczenstwo/Soldier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/społeczenstwo/King.java" />
+        <option value="$PROJECT_DIR$/src/main/java/społeczenstwo/Townsman.java" />
+        <option value="$PROJECT_DIR$/src/main/java/społeczenstwo/Peasant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/społeczenstwo/Town.java" />
+        <option value="$PROJECT_DIR$/src/main/java/społeczenstwo/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zamowienie/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/komputer/Komputer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zamowienie/Pozycja.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zamowienie/Zamowienie.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="522" />
+    <option name="x" value="441" />
+    <option name="y" value="11" />
     <option name="width" value="869" />
     <option name="height" value="727" />
   </component>
@@ -142,7 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,11 +167,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="komputer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Wyrownawcze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wyrownawcze" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zamowienie" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,20 +202,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainWesele">
-    <configuration name="BinarySearchByRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchByRecursion" />
-      <module name="Wyrownawcze" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="KomputerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="komputer.KomputerDemo" />
       <module name="Wyrownawcze" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="komputer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zamowienie.Main" />
+      <module name="Wyrownawcze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zamowienie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MainWesele" />
         <item itemvalue="Application.KomputerDemo" />
         <item itemvalue="Application.QuadraitcEquation" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BinarySearchByRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +289,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16490166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -294,7 +299,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26841244" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42880523" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,32 +493,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wesele/MainWesele.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/komputer/TypProcesora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-647">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wesele/Zaproszenie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="206">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wesele/TypZaproszenia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/komputer/KomputerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/społeczenstwo/Peasant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/społeczenstwo/Townsman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/społeczenstwo/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/społeczenstwo/Soldier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/społeczenstwo/Town.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/społeczenstwo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/społeczenstwo/Citizen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wesele/MainWesele.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -525,18 +590,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/komputer/TypProcesora.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/komputer/Laptop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state relative-caret-position="246">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
+            <element signature="e#836#837#0" expanded="true" />
             <element signature="e#874#875#0" expanded="true" />
             <element signature="e#917#918#0" expanded="true" />
             <element signature="e#956#957#0" expanded="true" />
@@ -546,26 +605,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/komputer/Komputer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/komputer/KomputerDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zamowienie/Zamowienie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="37" column="108" selection-start-line="37" selection-start-column="108" selection-end-line="37" selection-end-column="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="774">
+          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zamowienie/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zamowienie/Pozycja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>

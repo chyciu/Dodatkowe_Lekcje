@@ -2,9 +2,9 @@ package komputer;
 
 public class Komputer {
 
-    private int potrzebnaMoc;
-    private String producent;
-    private TypProcesora typProcesora;
+    public int potrzebnaMoc;
+    public String producent;
+    public TypProcesora typProcesora;
 
     public Komputer(int potrzebnaMoc, String producent, TypProcesora typProcesora) {
         this.potrzebnaMoc = potrzebnaMoc;
