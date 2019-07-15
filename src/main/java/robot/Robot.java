@@ -51,13 +51,13 @@ public class Robot {
     }
 
     public void przedstawRobota() {
-        System.out.println("Oto robot o imieniu: " + this.nazwaRobota);
+        System.out.println("Oto robot o imieniu: " + this.nazwaRobota + " !" + "\n");
         System.out.println(this.nazwaRobota + " może wykonywać następujące funkcje:");
         spisPolecen();
     }
 
     public void poziomBaterii() {
-        System.out.println("Aktualny poziom baterii to: " + getPoziomBaterii() + " %");
+        System.out.println("Aktualny poziom baterii to: " + getPoziomBaterii() + " %.");
 
     }
 
@@ -84,7 +84,7 @@ public class Robot {
     public void naladujRobota() {
         if (czyWlaczony == false) {
             if (poziomBaterii < 30) {
-                System.out.println("Musisz nałądować baterię robota.");
+                System.out.println("Musisz naładować baterię robota.");
                 setPoziomBaterii(100);
                 System.out.println("Bateria w pelni naładowana");
             } else {
@@ -135,7 +135,7 @@ public class Robot {
 
     public void poruszRobotem (RuchRobota ruchRobota) {
         if (czyWlaczony) {
-            if (poziomBaterii > ruchRobota.getProcentBaterii()) {
+            if (poziomBaterii > 30) {
                 switch (ruchRobota) {
                     case KROK_LEWA:
                         System.out.println("Robot wykonał krok lewą nogą.");
@@ -157,7 +157,7 @@ public class Robot {
                 }
                 poziomBaterii -= ruchRobota.getProcentBaterii();
             } else {
-                System.out.println("Poziom baterii nie jest wystarczający by wykonać ruch.");
+                System.out.println("Poziom baterii nie jest wystarczający by wykonać ruch.\n Wyłącz robota i naładuj baterię - wpisz [8].");
             }
         } else {
             System.out.println("Musisz włączyć robota.");
