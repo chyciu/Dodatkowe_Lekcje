@@ -1,6 +1,6 @@
 package komunikacja_miejska;
 
-public abstract class Pojazd {
+public class Pojazd {
 
     protected double predkoscMax;
 
@@ -8,10 +8,8 @@ public abstract class Pojazd {
         this.predkoscMax = predkoscMax;
     }
 
-    @Override
-    public String toString() {
-        return "Pojazd{" +
-                "predkoscMax=" + predkoscMax +
-                '}';
+    public void printPojazdy() {
+        System.out.println("Prędkość maks: " + predkoscMax);
     }
+
 }

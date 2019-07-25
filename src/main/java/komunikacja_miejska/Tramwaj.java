@@ -11,16 +11,23 @@ public class Tramwaj extends PojazdKomunikacjiMiejskiej {
     }
 
     public IloscWagonow getIloscWagonow() {
+
         return iloscWagonow;
     }
 
-    @Override
-    public String toString() {
-        return "Tramwaj{" +
-                "ilość wagonów w tramwaju= " + iloscWagonow +
-                ", numer pojazdu= " + numerPojazdu +
-                ", zajezdnia= " + zajezdnia +
-                ", predkość maksymalna= " + predkoscMax +
-                '}';
+    public void printTramwaje () {
+        System.out.println("Ilość wagonów= " + iloscWagonow);
+        System.out.println("Numer pojazdu= " + numerPojazdu);
+        System.out.println("Zajezdnia= " + zajezdnia);
+        System.out.println("Predkość maksymana= " + predkoscMax + " km/h.");
     }
+
+    public void setStringBuilder () {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("Ilość wagonów: " + iloscWagonow +
+                "numer pojazdu: " + numerPojazdu +
+                " predkość maks: " + predkoscMax + " km/h.");
+
+    }
+
 }

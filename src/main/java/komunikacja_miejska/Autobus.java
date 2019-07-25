@@ -14,13 +14,12 @@ public class Autobus extends PojazdKomunikacjiMiejskiej {
         return zuzytePaliwo_W_Miesiacu;
     }
 
-    @Override
-    public String toString() {
-        return "Autobus{" +
-                "zuzyte paliwo w miesiącu= " + zuzytePaliwo_W_Miesiacu +
-                ", numer ppjazdu= " + numerPojazdu +
-                "zajezdnia= " + zajezdnia +
-                ", predkość maksymalna= " + predkoscMax +
-                '}';
+    public void printAutobusy () {
+        System.out.println("Zużyte paliwo= " + zuzytePaliwo_W_Miesiacu);
+        System.out.println("Numer pojazdu= " + numerPojazdu);
+        System.out.println("Zajezdnia= " + zajezdnia);
+        System.out.println("Predkość maksymana=" + predkoscMax);
     }
+
+
 }

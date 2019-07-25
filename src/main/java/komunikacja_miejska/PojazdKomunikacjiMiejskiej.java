@@ -15,10 +15,11 @@ public class PojazdKomunikacjiMiejskiej extends Pojazd {
     @Override
     public String toString() {
         return "PojazdKomunikacjiMiejskiej{" +
-                "numer pojazdu = " + numerPojazdu +
-                "zajezdnia dla pojazdu= " + zajezdnia +
-                ", predkość maksymalna pojazdu= " + predkoscMax +
+                "numerPojazdu=" + numerPojazdu +
+                ", zajezdnia=" + zajezdnia +
+                ", predkoscMax=" + predkoscMax +
                 '}';
     }
-
 }
+
+

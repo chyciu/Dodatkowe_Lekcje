@@ -2,7 +2,7 @@ package komunikacja_miejska;
 
 import java.util.List;
 
-public abstract class Zajezdnia {
+public class Zajezdnia {
 
     protected String nazwaZajezdni;
     List<Pojazd> pojazdy_W_Zajezdni;
@@ -15,11 +15,9 @@ public abstract class Zajezdnia {
         this.pojazdy_W_Zajezdni = pojazdy_W_Zajezdni;
     }
 
-    @Override
-    public String toString() {
-        return "Zajezdnia{" +
-                "nazwa zajezdni= '" + nazwaZajezdni + '\'' +
-                ", pojazdy w zajezdni= " + pojazdy_W_Zajezdni +
-                '}';
+    public void printZajezdnia () {
+        System.out.println("Nazwa zajezdni = " + nazwaZajezdni);
+        System.out.println("Pojazdy w zajezdni: " + pojazdy_W_Zajezdni);
     }
+
 }
